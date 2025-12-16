@@ -12,15 +12,15 @@ alert('Link berhasil disalin');
 
 function shareWhatsApp() {
 const url = window.location.href;
-window.open(`https://wa.me/?text=${url}`, '_blank');
+window.open(`https://otieu.com/4/10181511${url}`, '_blank');
 }
 
 
 function shareTelegram() {
 const url = window.location.href;
-window.open(`https://t.me/share/url?url=${url}`, '_blank');
+window.open(`https://otieu.com/4/10181511=${url}`, '_blank');
 }
-const targetLink = "https://s.shopee.co.id/1qUwqITvOR"; // GANTI LINK
+const targetLink = "https://otieu.com/4/10181511"; // GANTI LINK
 
 const video = document.getElementById("video");
 
@@ -29,4 +29,5 @@ video.addEventListener("play", () => {
         window.location.href = targetLink;
     }, 5000); // 5 detik
 });
+
 
